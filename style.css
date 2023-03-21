@@ -30,6 +30,7 @@ body{
     background-position: center;
     bottom: calc(var(--index) * -4.5);
     height: calc(var(--index) * 10);
+    
 }
 
 .layers{
@@ -58,7 +59,7 @@ body{
 }
 
 .layers__middle{
-    transform: translate3d(0, calc(var(--scrollTop) / 2.3), 0);
+    transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
     z-index: 2;
 }
 
